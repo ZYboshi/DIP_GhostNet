@@ -22,10 +22,13 @@ __pycache__/
 
 # 忽略数据集文件夹中的内容，但保留文件夹结构
 dataset/*
-!dataset/
+!dataset/.gitkeep
+
 # 忽略模型检查点和权重文件夹中的内容，但保留文件夹结构
 ghost_model_checkpoints/*
-!ghost_model_checkpoints/
+!ghost_model_checkpoints/.gitkeep
+
 # 忽略实验结果文件夹中的内容，但保留文件夹结构
 result/*
-!result/
+!result/.gitkeep
+
