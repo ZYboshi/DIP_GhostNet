@@ -90,8 +90,19 @@ DIP_GhostNet/
 
 ```
 
-### 
+### 运行脚本
+1. 利用预训练的模型进行对比:ghostnet  VS  mobilenet
 
+`python eval_all.py`
+
+生成结果在result中:`mobilenetv3_small.csv`   `predictions_ghostnet.csv`
+
+
+2. 自我编写ghostnet_model训练CIFAR-10
+
+`python ghostnet.py`
+
+生成结果在result中
 
 
 
