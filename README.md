@@ -13,12 +13,6 @@
 3.  **模型改进（暂定，可能不做了）**：提出并实现了一种**混合Ghost比例（GhostNet-Hybrid）** 的改进方案，通过在网络不同深度调整特征冗余度，以寻求精度与效率的更好平衡。
 
 
-## 🛠 环境依赖
-
-```bash
-pip install -r requirements.txt
-```
-
 ## 工程目录说明
 ```
 DIP_GhostNet/
