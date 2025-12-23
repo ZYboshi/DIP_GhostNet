@@ -1,0 +1,28 @@
+# 忽略Python编译后的字节码文件和缓存目录
+*.pyc
+__pycache__/
+
+# 忽略IDE或编辑器生成的临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略Jupyter Notebook备份文件
+*.ipynb_checkpoints/
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+
+# 忽略大型二进制文件
+*.tar.gz
+*.zip
+
+
+# 忽略数据集文件夹中的内容，但保留文件夹结构
+dataset/*
+# 忽略模型检查点和权重文件夹中的内容，但保留文件夹结构
+ghost_model_checkpoints/*
+# 忽略实验结果文件夹中的内容，但保留文件夹结构
+result/*
