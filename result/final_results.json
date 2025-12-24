@@ -1,0 +1,7 @@
+{
+    "best_accuracy": 91.5,
+    "final_accuracy": 91.5,
+    "final_loss": 0.28374876817570455,
+    "total_epochs": 100,
+    "model_parameters": 812598
+}
